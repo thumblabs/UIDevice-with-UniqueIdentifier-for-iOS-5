@@ -11,6 +11,8 @@
 
 @interface UIDevice (IdentifierAddition)
 
+- (NSString *) macaddress;
+
 /*
  * @method uniqueDeviceIdentifier
  * @description use this method when you need a unique identifier in one app.
